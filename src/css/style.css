@@ -44,6 +44,16 @@ Estilizando o Hero
     height: 500px;
     border-radius: 50%;
     margin-top: 30px;
+    animation: rodar 1s ease-in-out;
+}
+
+@keyframes rodar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 #titulo{
