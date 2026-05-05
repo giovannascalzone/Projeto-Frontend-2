@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="././src/css/style.css">
     <title>Projeto | Inicio</title>
 </head>
 <body>
+
+    <div id= "inicio">
+        <h1 id="titulo"> Bem-Vindo ao Site</h1>
+        <p id="frase">Com grandes Códigos vem grandes Bugs</p>
+        <img src="./src/assets/logo.gif" alt="imagem" id="imgHero">
+    </div>
     <header>
-        <h1>Meu App</h1>
+        <img src="./src/assets/logo.gif" alt="Logo" id="logo">
+    
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/pages/sobre.html">Sobre</a></li>
+                <li><a href="./src/pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+            <input type="button" class="cor" onclick="trocar('#83C0DF')">
+            <input type="button" class="cor" onclick="trocar('#FFB5C0')">
+            <input type="button" class="cor" onclick="trocar('#FAF7A9')">
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./src/pages/sobre.html">Sobre</a></li>
-            <li><a href="./src/pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    <div>
-        <input type="button" class="cor" onclick="trocar('#3AE4B1')">
-        <input type="button" class="cor" onclick="trocar('#C13AF2')">
-        <input type="button" class="cor" onclick="trocar('#FBFF24')">
-    </div>
+    <main>
+        <p id = "texto">Produtos em Destaques</p>
+    </main>
     <script src="./src/js/script.js"></script>
 </body>
 </html>
